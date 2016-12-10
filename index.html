@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CrystalsCollector!</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>CrystalsCollector!</h1>
+  </header>
+  <br><br>
+  <div id="instruct">
+    <p>You will be given a random number at the start of the game.</p>
+    <br>
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <br>
+    <p>You win the game by matcing your total score to random number, you lose the game if your total score goes above the random number.</p>
+    <br>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <br>
+    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+  </div>
+  <br><br>
+  <div>
+    <div id=targetScore></div>
+    <div>
+      <div id=wins><p>Wins: </p></div>
+      <div id=loses><p>Loses: </p></div>
+    </div>
+  </div>
+  <br><br>
+  <div id="gems">
+    <img src="assets/images/diamond.png" alt="diamond" class="gem" id="diamond">
+    <img src="assets/images/pink-gem.png" alt="pink-gem" class="gem" id="pink-gem">
+    <img src="assets/images/ruby.png" alt="ruby" class="gem" id="ruby">
+    <img src="assets/images/white-gem.png" alt="white-gem" class="gem" id="white-gem">
+  </div>
+  <br>
+  <div id="total-score">
+  <p>Your total score is: </p>
+  </div>
+  <br><br>
+  <div id="currentScore"></div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="assets/javascript/game.js"></script> <!-- link to js (occurs after html loads) -->
+
+</body>
+</html>

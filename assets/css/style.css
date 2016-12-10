@@ -1,0 +1,40 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-size: 100% 100%;
+  background-repeat: repeat;
+}
+
+header {
+  font-size: 40px; 
+  font-family: arial, sans-serif;
+  background-color: #FF6D0D;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+#instruct {
+  font-size: 25px;
+  font-family: arial, sans-serif;
+  background-color: #E8980C;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff; 
+  width: 50%;
+}
+
+#total-score {
+  font-size: 20px; 
+  font-family: arial, sans-serif;
+  background-color: #FF6D0D;
+  display: inline-block;
+  padding-right: 25px;
+  color: #ffffff; 
+}
+
+.gem {
+  width: 70px;
+  height: 70px;
+}
